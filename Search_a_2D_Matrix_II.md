@@ -18,6 +18,5 @@ moving to the left if the current element is too big, and moving down if the ele
 If we reach past the edge of the matrix then the element does not exist in the matrix, so we exit the loop and return false.
 This solution takes O(m+n) time.
 
-###Key insight:
-
+Key insight:
 Use the array structure to your advantage. This is easily seen by the fact that the array is sorted, but the properties about the elements in 2D are slightly more subtle.
